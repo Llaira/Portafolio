@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #01001C;
+    font-size: 18px;
+    padding: 2vh;
+}
+
+.navbar-container{
+    position: fixed;
+    top: 0;
+    height: 14vh;
+    width: 100%;
+    background-color: #fed7da;
+}
+
+.navbar-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navbar-logo{
+    width: 100px;
+    margin-top: -2.5vh;
+    position: absolute;
+  }
+  
+.navbar-sections{
+    padding: 5vh 2vw;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-right: 1vw;
+    transition: all .3s;
+    font-family: 'Lato', sans-serif;
+  }
+  
+.navbar-sections:hover{
+    background-color: #5C99C7 ;
+    border-color: #1F3656 ;
+    color: #1F3656 ;
+  }
+  
