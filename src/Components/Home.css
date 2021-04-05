@@ -46,11 +46,9 @@
 }
 
 .home-page-photo{
-    width: 50%;
-    height: 100vh;
-    margin-left: 65vw;
-    margin-bottom: -70vh;
-    float: right;
+    width: 90%;
+    margin-right: 2%;
+    margin-top: 18%;
 }
 
 .home-page-photo-mobile{

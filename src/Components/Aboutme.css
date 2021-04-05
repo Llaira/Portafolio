@@ -1,0 +1,16 @@
+.aboutme-container{
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 100%;
+}
+
+.aboutme-title{
+    color: black;
+    margin-left: 8%;
+}
+
+.aboutme-paragraph-container{
+    margin-left: 25%;
+    margin-right: 5%;
+    margin-top: 5%;
+    
+}
