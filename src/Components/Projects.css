@@ -1,0 +1,206 @@
+.projects-container{
+    background-color: #3D6793;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.projects-title{
+    color: #01001C;
+    font-weight: bold;
+    font-size: 8px;
+    display: flex;
+    padding-top: 3%;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.project-container-onu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+}
+
+
+.project-container-data-lovers{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+.project-container-social-network{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+.project-container-cd{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.project-description{
+    font-size: 7px;
+    padding-left: 5vw;
+    width: 45vw;
+}
+
+.project-name{
+    font-size: 5px;
+}
+
+.project-tools{
+    font-weight: bold;
+}
+
+.project-demo-button{
+    background-color: #01001C;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    font-size: 4px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    width: 20%;
+    padding: 3px;
+    margin-top: 1%;
+    margin-left: 3px;
+    border-radius: 20px;
+    border: 2px solid #01001C;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s;
+}
+
+.project-demo-button:hover{
+    background-color: white;
+    border-color: white;
+    color: #3D6793;
+}
+
+.project-github-button{
+    background-color: #01001C;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    font-size: 4px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    width: 20%;
+    padding: 3px;
+    margin-top: 1%;
+    margin-left: 3px;
+    border-radius: 20px;
+    border: 2px solid #01001C;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s;
+}
+
+.project-github-button:hover{
+    background-color: white;
+    border-color: white;
+    color: #3D6793;
+}
+
+.project-onu-photo{
+    height: 40vh;
+}
+
+.project-data-photo{
+    height: 40vh;
+}
+
+.project-patiperros-photo{
+    height: 40vh;
+}
+
+.project-card-validation-photo{
+    height: 40vh;
+    width: 25vw;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 414px) and (orientation: portrait) {
+
+    .onu-photo{
+        width: 100%;
+    }
+
+    .onu-presentation-container{
+        width: 100%;
+        font-size: 25px;
+    }
+    
+    .onu-presentation-description{
+        width: 80%;
+        padding-bottom: 10vh;
+        font-size: 30px;
+    }
+
+    .projects-container{
+        width: 200%;
+    }
+
+    .projects-title{
+        padding-top: 18%;
+    }
+
+    .the-project-container-onu{
+        flex-direction: column;
+    }
+
+    .the-project-name{
+        font-size: 30px;
+    }
+
+    .project-description{
+        font-size: 30px;
+        width: 75%;
+        text-align: center;
+    }
+
+    .the-project-container-white{
+        flex-direction: column;
+    }
+
+    .the-project-container-pink{
+        flex-direction: column;
+    }
+
+    .project-cifradocesar-photo{
+        height: 100%;
+        width: 100%;
+    }
+
+    .project-demo-button{
+        font-size: 20px;
+        width: 150px;
+        padding: 20px;
+        margin-right: 15px;
+        border-radius: 35px;
+    }
+
+    .project-github-button{
+        font-size: 20px;
+        width: 150px;
+        padding: 20px;
+        margin-left: 5px;
+        border-radius: 35px;
+    }
+
+    .onu-article-button{
+        font-size: 20px;
+        width: 250px;
+        padding: 20px;
+        border-radius: 35px;
+    }
+  }

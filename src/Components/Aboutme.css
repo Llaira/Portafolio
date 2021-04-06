@@ -6,28 +6,38 @@
 
 .aboutme-title{
     color: #01001C;
+    font-size: 8px;
     margin-top: 5%;
     margin-left: 8%;
 }
 
 .aboutme-paragraph{
     font-size: 4px;
-    justify-content: center;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 .aboutme-paragraph-container{
-    margin-left: 25%;
     margin-right: 5%;
-    margin-top: 5%;
+    margin-left: 5%;
     color: #3D6793;
-    justify-content: space-between;
-    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
+
+.aboutme-me{
+    width: 20%;
+    border-radius: 25px;
 }
 
 .instagram{
     color: #01001C;
     background: none;
     border: none;
-    font-size: 3px;
+    font-size: 4px;
     text-decoration: underline;
     font-weight:lighter;
     margin-bottom: 5%;
@@ -36,16 +46,29 @@
 }
 
 .aboutme-cv-button{
-    width: 15%;
-    height: 8%;
-    font-size: 3px;
-    text-align:center;
-    border-radius: 8px;
-    color: white;
-    background-color:  #01001C;
-    border: none;
-    margin-bottom: 10%;
+    background-color: #3D6793;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    font-size: 4px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    width: 10%;
+    padding: 3px;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2px solid #3D6793;
+    cursor: pointer;
+    outline: none;
+    transition: all .3s
 }
+.aboutme-cv-button:hover{
+    background-color: #01001C;
+    border-color: #01001C;
+    color: white;
+}
+
 
 .images{
     width: 100%;
@@ -54,12 +77,17 @@
 }
 
 .img-gruop{
-    width: 40%;
+    width: 30%;
     padding: 1vh;
     border-radius: 8px;
 }
 .img-activities{
-    width: 45%;
+    width: 35%;
+    padding: 1vh;
+    border-radius: 8px;
+}
+.img-terrarios{
+    width: 25%;
     padding: 1vh;
     border-radius: 8px;
 }

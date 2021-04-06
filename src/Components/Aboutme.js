@@ -2,6 +2,8 @@ import './Aboutme.css'
 import LlairaReyesCv from '../Images/Llaira-Reyes-cv.pdf'
 import Grupo from '../Images/grupo-adulto.jpg'
 import Actividades from '../Images/actividades-recreativas.jpg'
+import Terrarios from '../Images/terrarios.png'
+import Me from '../Images/me.jpg'
 
 
 const Aboutme = () => {
@@ -11,7 +13,8 @@ const Aboutme = () => {
              <h2 className="aboutme-title">Sobre mí</h2>
            </div>
            <div className="aboutme-paragraph-container">
-             <p className="aboutme-paragraph">                  
+                  <img src={Me} className="aboutme-me" alt="card validation" />
+             <p className="aboutme-paragraph">             
                 Soy Desarrolladora Web (Front-End Developer) y estudiante de UX/UI Designer. 
                 Amante de la tecnología, el diseño y la programación. 
                 Soy una mujer arriesgada,  me gusta a sumir nuevos desafios y ponerme a prueba para enfrentar 
@@ -27,16 +30,16 @@ const Aboutme = () => {
                 <button className="instagram">aquí</button>
                 </a>
              </p>
-               <div className="images">
-               <img src={Grupo} className="img-gruop" alt="my img" />
-               <img src={Actividades} className="img-activities" alt="my img" />
-               </div>
-                <a href= {LlairaReyesCv} target="_blank">
-                <button className="aboutme-cv-button">MI CV</button>
-                </a>
-             
             </div>
-       </section>
+               <a href= {LlairaReyesCv} target="_blank">
+                        <button className="aboutme-cv-button">MI CV</button>
+                </a>
+               <div className="images">
+                  <img src={Grupo} className="img-gruop" alt="my img" />
+                  <img src={Actividades} className="img-activities" alt="my img" />
+                  <img src={Terrarios} className="img-terrarios" alt="my img" />
+               </div>
+         </section>
     )
 }
 
