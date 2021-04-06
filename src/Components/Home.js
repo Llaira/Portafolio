@@ -1,5 +1,5 @@
 import './Home.css'
-import photo from '../Images/photo.png'
+import photo from '../Images/photo-home-page.png'
 
 const Home = () => {
    return (

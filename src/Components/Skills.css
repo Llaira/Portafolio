@@ -1,0 +1,50 @@
+.skills-content{
+    background-size: cover;
+    background-color: #01001C;
+    background-position: top;
+    padding-top: 1%;
+}
+
+.skills-tittle-content{
+    margin-top: 20%;
+}
+
+.skills-title{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 5px;
+    color: #E5E5E5;
+}
+
+.skills-icons{
+    width: 50%;
+    margin-left: 30%;
+}
+
+.certificate-title{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 5px;
+    color: #E5E5E5;
+}
+
+.logo-button-content{
+    justify-content: space-between;
+    align-self: center;
+    align-content: center;
+    align-content: space-between;
+}
+.logo-certiprof{
+    width: 8%;
+    margin-left: 25%;
+}
+.certificate-button{
+    color: #E5E5E5;
+    background: none;
+    border: none;
+    font-size: 3px;
+    text-decoration: underline;
+    font-weight:lighter;
+    margin-bottom: 5%;
+    float:inline-start;
+}

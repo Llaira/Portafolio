@@ -1,15 +1,16 @@
 .navbar{
     background-color: #01001C;
-    font-size: 18px;
-    padding: 2vh;
+    font-size: 65%;
+    padding: 1vh;
+    height: 10px;
+    z-index: 2;
 }
 
 .navbar-container{
     position: fixed;
     top: 0;
-    height: 14vh;
     width: 100%;
-    background-color: #fed7da;
+    z-index: 2;
 }
 
 .navbar-content{
@@ -17,28 +18,30 @@
     flex-direction: row;
     justify-content: flex-end;
     list-style: none;
+    z-index: 2;
+    text-align: justify;
 }
 
-.navbar-logo{
-    width: 100px;
-    margin-top: -2.5vh;
-    position: absolute;
-  }
   
 .navbar-sections{
-    padding: 5vh 2vw;
+    padding: 2vh 1vw;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 65%;
     font-weight: bold;
     color: white;
-    margin-right: 1vw;
+    margin-right: 2vw;
     transition: all .3s;
     font-family: 'Lato', sans-serif;
-  }
+    z-index: 2;
+    text-align: center;
+}
   
 .navbar-sections:hover{
     background-color: #5C99C7 ;
     border-color: #1F3656 ;
     color: #1F3656 ;
-  }
+    border-radius: 8px;
+    z-index: 2;
   
+  }
+ 

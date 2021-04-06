@@ -1,8 +1,8 @@
-body {
- background-color: #01001C;
+* {
+font-size: 5px;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #01001C;
+   margin: 0;
+   font-family: 'Manjari', sans-serif;
 }
