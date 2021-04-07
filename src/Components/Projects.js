@@ -19,7 +19,7 @@ const Projects = () => {
                  <span className="project-tools">Herramientas utilizadas: Javascript Vanilla - HTML5 - CSS3 - Firebase.<br></br>
                                                 *Sólo vista mobile*</span>
                  </p>
-                 <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-Proyecto-Onu-Mujeres" target="_blank">
+                 <a rel="noopener noreferrer" href="https://llaira.github.io/SCL015-Proyecto-Onu-Mujeres/src/" target="_blank">
                  <button className="project-demo-button">DEMO</button>
                  </a>
                  <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-Proyecto-Onu-Mujeres" target="_blank">
@@ -37,7 +37,7 @@ const Projects = () => {
                      Indicando sus características y rol dentro del juego. Además se puede ver la imagen de cada uno.  <br></br><br></br>
                   <span className="project-tools">Herramientas utilizadas:HTML5 - CSS3 - Javascript Vanilla - manipulación de data.</span>
                   </p>
-                  <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-Proyecto-Onu-Mujeres" target="_blank">
+                  <a rel="noopener noreferrer" href="https://llaira.github.io/SCL015-data-lovers/src/" target="_blank">
                      <button className="project-demo-button">DEMO</button>
                   </a>
                   <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-data-lovers" target="_blank">
@@ -55,7 +55,7 @@ const Projects = () => {
                      Ideal para los amantes de los viajes, donde pueden interactuar entre ellos.<br></br><br></br>
                   <span className="project-tools">Herramientas utilizadas: HTML5 - CSS3 - Javascript - Firebase. *Responsive*</span>
                   </p>
-                  <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-Proyecto-Onu-Mujeres" target="_blank">
+                  <a rel="noopener noreferrer" href="https://llaira.github.io/SCL015-social-network/src/" target="_blank">
                      <button className="project-demo-button">DEMO</button>
                   </a>
                   <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-social-network" target="_blank" >
@@ -72,7 +72,7 @@ const Projects = () => {
                  <p>Plataforma web que permite verificar si un número de tarjeta es válido o inválido, evitando fraudes y estafas.<br></br><br></br>
                  <span className="the-project-tools">Herramientas utilizadas: HTML5 - CSS3 - Javascript Vanilla.</span>
                  </p>
-                 <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-Proyecto-Onu-Mujeres" target="_blank">
+                 <a rel="noopener noreferrer" href="https://llaira.github.io/SCL015-card-validation/src/" target="_blank">
                     <button className="project-demo-button">DEMO</button>
                  </a>
                  <a rel="noopener noreferrer" href="https://github.com/Llaira/SCL015-card-validation" target="_blank">
