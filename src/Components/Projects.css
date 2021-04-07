@@ -8,7 +8,7 @@
 .projects-title{
     color: #01001C;
     font-weight: bold;
-    font-size: 8px;
+    font-size: 35px;
     display: flex;
     padding-top: 3%;
     text-align: left;
@@ -50,13 +50,13 @@
 }
 
 .project-description{
-    font-size: 7px;
+    font-size: 20px;
     padding-left: 5vw;
     width: 45vw;
 }
 
 .project-name{
-    font-size: 5px;
+    font-size: 28px;
 }
 
 .project-tools{
@@ -64,18 +64,18 @@
 }
 
 .project-demo-button{
-    background-color: #01001C;
-    font-family: 'Manjari', sans-serif;
-    font-weight: bold;
-    font-size: 4px;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-    width: 20%;
-    padding: 3px;
+    background-color: #01001c;
+    font-family: "Manjari",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: #fff;
+    width: 143px;
+    height: 8vh;
     margin-top: 1%;
     margin-left: 3px;
     border-radius: 20px;
-    border: 2px solid #01001C;
+    border: 2px solid #01001c;
     cursor: pointer;
     outline: none;
     transition: all .3s;
@@ -88,18 +88,19 @@
 }
 
 .project-github-button{
-    background-color: #01001C;
-    font-family: 'Manjari', sans-serif;
-    font-weight: bold;
-    font-size: 4px;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-    width: 20%;
+    background-color: #01001c;
+    font-family: "Manjari",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: #fff;
+    width: 143px;
+    height: 8vh;
     padding: 3px;
     margin-top: 1%;
-    margin-left: 3px;
+    margin-left: 3%;
     border-radius: 20px;
-    border: 2px solid #01001C;
+    border: 2px solid #01001c;
     cursor: pointer;
     outline: none;
     transition: all .3s;

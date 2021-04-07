@@ -12,8 +12,8 @@
 .skills-title{
     margin-top: 5%;
     margin-left: 10%;
-    font-size: 5px;
-    color: #E5E5E5;
+    font-size: 35px;
+    color: #D9DCDF;
 }
 
 .skills-icons{
@@ -24,8 +24,8 @@
 .certificate-title{
     margin-top: 5%;
     margin-left: 10%;
-    font-size: 5px;
-    color: #E5E5E5;
+    font-size: 35px;
+    color: #D9DCDF;
 }
 
 .logo-button-content{
@@ -51,22 +51,22 @@
 } */
 
 .certificate-button{
-    background-color: #3D6793;
-    font-family: 'Manjari', sans-serif;
-    font-weight: bold;
-    font-size: 3px;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-    width: 70%;
+    background-color: #3d6793;
+    font-family: "Manjari",sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: .5px;
+    color: #fff;
     padding: 3px;
+    padding-top: 12px;
     margin-top: 1%;
     margin-left: 10%;
     margin-bottom: 5px;
-    border-radius: 10px;
-    border: 1px solid #3D6793;
+    border-radius: 20px;
+    border: 1px solid #3d6793;
     cursor: pointer;
     outline: none;
-    transition: all .3
+    transition: all .3;
 }
 .certificate-button:hover{
     background-color: white;

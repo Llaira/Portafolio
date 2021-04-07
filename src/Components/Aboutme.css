@@ -5,14 +5,14 @@
 }
 
 .aboutme-title{
-    color: #ffffff;
-    font-size: 8px;
+    color: #D9DCDF;
+    font-size: 35px;
     margin-top: 5%;
     margin-left: 8%;
 }
 
 .aboutme-paragraph{
-    font-size: 4px;
+    font-size: 20px;
     margin-left: 5%;
     margin-right: 10%;
 }
@@ -30,14 +30,14 @@
 
 .aboutme-me{
     width: 18%;
-    border-radius: 25px;
+    border-radius: 40px;
 }
 
 .instagram{
-    color: white;
+    color: #3d6793;
     background: none;
     border: none;
-    font-size: 4px;
+    font-size: 18px;
     text-decoration: underline;
     font-weight:lighter;
     margin-bottom: 5%;
@@ -46,23 +46,21 @@
 }
 
 .aboutme-cv-button{
-    background-color: #3D6793;
-    font-family: 'Manjari', sans-serif;
-    font-weight: bold;
-    font-size: 4px;
-    letter-spacing: 0.5px;
-    color: #ffffff;
-    width: 20%;
-    height: 10vh;
-    padding: 3px;
+    background-color: #3d6793;
+    font-family: "Manjari",sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: .5px;
+    color: #D9DCDF;
+    width: 15%;
+    height: 8vh;
     margin-top: 1%;
-    margin-left: 5%;
-    margin-bottom: 5px;
-    border-radius: 10px;
-    border: 2px solid #3D6793;
+    margin-left: 6%;
+    border-radius: 30px;
+    border: 2px solid #3d6793;
     cursor: pointer;
     outline: none;
-    transition: all .3s
+    transition: all .3s;
 }
 .aboutme-cv-button:hover{
     background-color: white;
@@ -81,15 +79,15 @@
 .img-gruop{
     width: 20%;
     padding: 1vh;
-    border-radius: 8px;
+    border-radius: 25px;
 }
 .img-activities{
     width: 25%;
     padding: 1vh;
-    border-radius: 8px;
+    border-radius: 25px;
 }
 .img-terrarios{
     width: 20%;
     padding: 1vh;
-    border-radius: 8px;
+    border-radius: 25px;
 }

@@ -1,8 +1,7 @@
 .navbar{
     background-color: #01001C;
-    font-size: 20%;
     padding: 1vh;
-    height: 40px;
+    height: 60px;
     z-index: 2;
 }
 
@@ -26,9 +25,9 @@
 .navbar-sections{
     padding: 2vh 1vw;
     text-decoration: none;
-    font-size: 65%;
+    font-size: 26px;
     font-weight: bold;
-    color: white;
+    color: #D9DCDF;
     margin-right: 2vw;
     transition: all .3s;
     font-family: 'Lato', sans-serif;
