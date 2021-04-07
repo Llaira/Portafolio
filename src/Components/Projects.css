@@ -112,7 +112,8 @@
 }
 
 .project-onu-photo{
-    height: 40vh;
+    height: 60vh;
+    filter: drop-shadow(0,4,4,0.25);
 }
 
 .project-data-photo{
@@ -120,12 +121,11 @@
 }
 
 .project-patiperros-photo{
-    height: 40vh;
+    height: 60vh;
 }
 
 .project-card-validation-photo{
     height: 40vh;
-    width: 25vw;
 }
 
 

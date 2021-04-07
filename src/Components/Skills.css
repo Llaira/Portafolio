@@ -29,22 +29,47 @@
 }
 
 .logo-button-content{
-    justify-content: space-between;
-    align-self: center;
-    align-content: center;
-    align-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 .logo-certiprof{
-    width: 8%;
-    margin-left: 25%;
+    width: 18%;
+    margin-left: 10%;
+    margin-bottom: 5%;
 }
-.certificate-button{
+/* .certificate-button{
     color: #E5E5E5;
     background: none;
     border: none;
-    font-size: 3px;
+    font-size: 4px;
     text-decoration: underline;
     font-weight:lighter;
     margin-bottom: 5%;
     float:inline-start;
+} */
+
+.certificate-button{
+    background-color: #3D6793;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    font-size: 3px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    width: 70%;
+    padding: 3px;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #3D6793;
+    cursor: pointer;
+    outline: none;
+    transition: all .3
+}
+.certificate-button:hover{
+    background-color: white;
+    border-color: white;
+    color: #3D6793;
 }

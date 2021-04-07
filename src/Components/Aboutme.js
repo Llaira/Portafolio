@@ -20,7 +20,7 @@ const Aboutme = () => {
                 Soy una mujer arriesgada,  me gusta a sumir nuevos desafios y ponerme a prueba para enfrentar 
                 los distintos escenarios.
                 Es por eso que he experimentado en el autoaprendizaje realizando un Bootcamp para convertirme en desarrolladora web.
-                <br></br>Las expriencias vividas me han formado como una mujer independiente, segura, empática y organizada. 
+                <br></br>Las experiencias vividas me han formado como una mujer independiente, segura, empática y organizada. 
                 Anteriormente me he desempeñado como terapeuta, instructora, coordinadora y couch. 
                 Siempre entregando lo mejor de mí en cada desafio.<br></br>
                 Actualmente emprendí con venta de terrarios de suculentas y cactus de las cuales soy una coleccionista, 
@@ -32,7 +32,7 @@ const Aboutme = () => {
              </p>
             </div>
                <a href= {LlairaReyesCv} target="_blank">
-                        <button className="aboutme-cv-button">MI CV</button>
+                        <button className="aboutme-cv-button">MI CURRICULUM</button>
                 </a>
                <div className="images">
                   <img src={Grupo} className="img-gruop" alt="my img" />

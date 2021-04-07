@@ -1,11 +1,11 @@
 .aboutme-container{
-    background-color: #E5E5E5;
+    background-color: #01001C;
     width: 100%;
     padding-top: 1%;
 }
 
 .aboutme-title{
-    color: #01001C;
+    color: #ffffff;
     font-size: 8px;
     margin-top: 5%;
     margin-left: 8%;
@@ -19,7 +19,7 @@
 .aboutme-paragraph-container{
     margin-right: 5%;
     margin-left: 5%;
-    color: #3D6793;
+    color: #D9DCDF;
     width: 100%;
     display: flex;
     align-items: center;
@@ -29,12 +29,12 @@
 }
 
 .aboutme-me{
-    width: 20%;
+    width: 18%;
     border-radius: 25px;
 }
 
 .instagram{
-    color: #01001C;
+    color: white;
     background: none;
     border: none;
     font-size: 4px;
@@ -52,7 +52,8 @@
     font-size: 4px;
     letter-spacing: 0.5px;
     color: #ffffff;
-    width: 10%;
+    width: 20%;
+    height: 10vh;
     padding: 3px;
     margin-top: 1%;
     margin-left: 5%;
@@ -64,9 +65,9 @@
     transition: all .3s
 }
 .aboutme-cv-button:hover{
-    background-color: #01001C;
-    border-color: #01001C;
-    color: white;
+    background-color: white;
+    border-color: white;
+    color: #01001C;
 }
 
 
@@ -74,20 +75,21 @@
     width: 100%;
     height: 25%;
     padding: 1vh;
+    margin-left: 20%;
 }
 
 .img-gruop{
-    width: 30%;
+    width: 20%;
     padding: 1vh;
     border-radius: 8px;
 }
 .img-activities{
-    width: 35%;
+    width: 25%;
     padding: 1vh;
     border-radius: 8px;
 }
 .img-terrarios{
-    width: 25%;
+    width: 20%;
     padding: 1vh;
     border-radius: 8px;
 }

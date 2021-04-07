@@ -1,5 +1,5 @@
 import './Skills.css'
-import icons from '../Images/icons-skills-1.png'
+import icons from '../Images/icons-skills-2.png'
 import certificate from '../Images/scrum-certificate.pdf'
 import logoCertiprof from '../Images/logo-certiprof.png'
 // import iconsmobile from '../images/icons-skills-mobile.png'
